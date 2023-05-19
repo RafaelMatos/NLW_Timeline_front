@@ -1,6 +1,3 @@
-import { User } from 'lucide-react'
-
-import Image from 'next/image'
 import { Copyright } from '@/components/Copyright'
 import { Hero } from '@/components/Hero'
 import { SignIn } from '@/components/SignIn'
