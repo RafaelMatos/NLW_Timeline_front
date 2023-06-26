@@ -66,12 +66,12 @@ export function NewMemoryForm() {
       <textarea
         name="content"
         spellCheck={false}
-        className="w-full flex-1 resize-none border-0 bg-transparent p-0 text-lg leading-relaxed text-gray-100 placeholder:text-gray-400 focus:ring-0"
+        className="w-full flex-1 resize-none border-0 bg-transparent px-2 text-lg leading-relaxed text-gray-100 placeholder:text-gray-400 focus:ring-0"
         placeholder="Fique livre para adicionar fotos, vídeos e relatos sobre essa experiência que você quer lembrar para sempre."
       />
       <button
         type="submit"
-        className="inline-block self-end rounded-full bg-green-500  px-5 py-5 font-alt text-sm uppercase leading-none text-gray-900 hover:bg-green-600"
+        className="mb-2 mr-2 inline-block self-end rounded-full bg-green-500  px-5 py-5 font-alt text-sm uppercase leading-none text-gray-900 hover:bg-green-600"
       >
         Salvar
       </button>
